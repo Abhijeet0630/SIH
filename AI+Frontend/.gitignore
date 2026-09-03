@@ -1,0 +1,19 @@
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+Frontend/.env.*
+Frontend/.vite/
+
+# Backend
+Backend/**/.env
+Backend/**/__pycache__/
+Backend/**/*.pyc
+Backend/*/.env
+
+# Root
+node_modules/
+dist/
+.env
+.env.*
+.DS_Store

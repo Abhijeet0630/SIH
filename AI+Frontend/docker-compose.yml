@@ -1,0 +1,31 @@
+# ==============================================================================
+# Bharat AI Architecture - Local Integration Testing Compose File
+# ==============================================================================
+version: '3.8'
+
+services:
+  ai-service:
+    build:
+      context: ./AI
+      dockerfile: Dockerfile
+    container_name: bharat-ai-service
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+      - HOST=0.0.0.0
+      - AI_PROVIDER=auto
+      - GROQ_API_KEY_1=${GROQ_API_KEY_1:-your_groq_api_key_1}
+      - GROQ_API_KEY_2=${GROQ_API_KEY_2:-your_groq_api_key_2}
+      - GROQ_API_KEY_3=${GROQ_API_KEY_3:-your_groq_api_key_3}
+      - GROQ_API_KEY_4=${GROQ_API_KEY_4:-your_groq_api_key_4}
+      - GROQ_API_KEY_5=${GROQ_API_KEY_5:-your_groq_api_key_5}
+      - GROQ_API_KEY_6=${GROQ_API_KEY_6:-your_groq_api_key_6}
+      - GROQ_MODEL=${GROQ_MODEL:-llama-3.3-70b-versatile}
+      - PROVIDER_TIMEOUT_SECONDS=10.0
+      - PROVIDER_MAX_RETRIES=1
+      - GROQ_KEY_COOLDOWN_SECONDS=30.0
+      - GROQ_KEY_FAILURE_THRESHOLD=3
+      - MAIN_BACKEND_URL=http://host.docker.internal:8000
+      - CORS_ORIGINS=http://localhost:5173,http://localhost:3000,http://127.0.0.1:5173
+    restart: unless-stopped

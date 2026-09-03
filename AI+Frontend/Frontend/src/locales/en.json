@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Home",
+    "exploreIndia": "Explore India",
+    "categories": "Cultural Layers",
+    "festivals": "Festivals",
+    "monuments3D": "3D Experiences",
+    "about": "About",
+    "language": "Language",
+    "accessibility": "Accessibility",
+    "aiGuide": "AI Cultural Guide"
+  },
+  "hero": {
+    "tagline": "Student Innovation Showcase",
+    "headline": "Experience the Living Heritage & Traditions of India",
+    "description": "An interactive digital odyssey connecting centuries of art, architectural wonders, sacred traditions, and vibrant regional cultures across the Indian subcontinent.",
+    "exploreCta": "Explore India",
+    "maharashtraDirect": "Discover Maharashtra",
+    "scrollPrompt": "Scroll to discover upcoming events & interactive maps"
+  },
+  "events": {
+    "title": "On This Day & Upcoming Celebrations",
+    "subtitle": "Discover the vibrant living traditions, seasonal rituals, and sacred festivals celebrated across India.",
+    "exploreEvent": "Explore Tradition",
+    "viewAll": "View All Festivals"
+  },
+  "indiaMap": {
+    "title": "Interactive India Map",
+    "subtitle": "Select any state to explore its unique cultural tapestry, heritage landmarks, and living traditions.",
+    "selectPrompt": "Select a state on the map to begin exploring India's cultural diversity.",
+    "featuredState": "Fully Featured Prototype",
+    "comingSoon": "Coming Soon in Full Release",
+    "exploreState": "Explore State Heritage",
+    "capital": "Capital",
+    "region": "Region",
+    "culturalHighlights": "Cultural Highlights"
+  },
+  "maharashtra": {
+    "title": "Maharashtra Cultural Explorer",
+    "subtitle": "The land of formidable Sahyadri hill forts, sacred cave temples, classical arts, rich textiles, and culinary traditions.",
+    "selectCategoryPrompt": "Select a cultural category above to reveal geographic landmarks across Maharashtra.",
+    "landmarksCount": "{{count}} cultural landmarks active"
+  },
+  "categories": {
+    "all": "All Heritage",
+    "food": "Food & Cuisine",
+    "fashion": "Textiles & Attire",
+    "forts": "Sahyadri Forts",
+    "temples": "Sacred Temples",
+    "monuments": "Monuments",
+    "architecture": "Architecture & Engineering",
+    "dance": "Folk Dance",
+    "music": "Music & Natya",
+    "crafts": "Handicrafts",
+    "tribal": "Tribal Culture & Lore",
+    "languages": "Languages & Scripts",
+    "festivals": "Festivals",
+    "culture": "Culture & Lore"
+  },
+  "itemDetail": {
+    "origin": "Origin & Region",
+    "knownFor": "Known For",
+    "history": "Historical Legacy",
+    "significance": "Cultural Significance",
+    "sources": "Verified Historical Sources",
+    "exploreMore": "Explore More",
+    "exploreRecipe": "Explore Traditional Recipe",
+    "recipeTitle": "Culinary Heritage & Preparation",
+    "ingredients": "Key Traditional Ingredients",
+    "starSchemaTitle": "Connected Knowledge Graph",
+    "starSchemaSubtitle": "Explore how this cultural icon connects across history, material traditions, regional arts, and sacred celebrations."
+  },
+  "monument3D": {
+    "title": "3D Architectural Experience",
+    "subtitle": "Interact with architectural models, investigate historical hotspots, and inspect structural craftsmanship.",
+    "hotspots": "Historical Hotspots",
+    "rotateTip": "Drag to rotate • Scroll to zoom • Click markers for details",
+    "resetCamera": "Reset Camera",
+    "loading": "Preparing the heritage experience..."
+  },
+  "accessibility": {
+    "panelTitle": "Accessibility Controls",
+    "textSize": "Text Size",
+    "increaseText": "Increase Text Size",
+    "decreaseText": "Decrease Text Size",
+    "resetText": "Default Text Size",
+    "highContrast": "High Contrast Mode",
+    "grayscale": "Black & White (Grayscale)",
+    "invertColors": "Invert Colors",
+    "reduceMotion": "Reduce Motion",
+    "enhancedCursor": "High-Visibility Cursor",
+    "resetAll": "Reset All Preferences"
+  },
+  "ai": {
+    "launcherLabel": "AI Guide",
+    "title": "Cultural Heritage Guide",
+    "subtitle": "Ask questions about Indian traditions, architecture, and history.",
+    "currentContext": "Current Context",
+    "placeholder": "Ask about traditions, recipes, history...",
+    "voicePlaceholder": "Voice query support ready for backend integration",
+    "suggestedPrompts": "Suggested Inquiries",
+    "prompt1": "Tell me about the history of Raigad Fort",
+    "prompt2": "What makes Paithani weaving unique?",
+    "prompt3": "How is Kolhapuri Misal prepared?"
+  }
+}

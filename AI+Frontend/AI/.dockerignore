@@ -1,0 +1,19 @@
+# Exclude environment configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Exclude python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+tests/
+
+# Exclude git and OS files
+.git/
+.gitignore
+.DS_Store
